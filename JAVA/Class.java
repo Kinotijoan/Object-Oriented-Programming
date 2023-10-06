@@ -13,27 +13,27 @@ public class loops{
         // }
 
         int[] myArray = {30,70,20,60,60,15};
-        // System.out.println(myArray[0]);
+        System.out.println(myArray[1]);
         // for(int i = 0; i < myArray.length; i++){
         //     System.out.println(myArray[i]);
         // }
-        int k = 0;
-        for(int i = 0 ; i < myArray.length; i++){
-            if(myArray[i] == 40){
-                continue;
-            }
-            k += myArray[i];
-        //     if(k > 50){
-        //         break;
+        // int k = 0;
+        // for(int i = 0 ; i < myArray.length; i++){
+        //     if(myArray[i] == 40){
+        //         continue;
         //     }
-        // }
-        System.out.println(k);
+        //     k += myArray[i];
+        // //     if(k > 50){
+        // //         break;
+        // //     }
+        // // }
+        // System.out.println(k);
          
-        // int[] myArray2 = new int [10];
-        // myArray2[0] = 20;
-        // System.out.println(myArray2[0]);
+        int[] myArray2 = new int [10];
+        myArray2[0] = 20;
+        System.out.println(myArray2[0]);
 
-        int multiArray[][] = new int [10][10];
+        // int multiArray[][] = new int [10][10];
 
 
 
